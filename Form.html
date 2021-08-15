@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p><b>Note:</b> Form is to be completed at least 21 days prior to date</p>
+
+<form action="/action_page.php">
+<fieldset>
+  <fieldset>
+    <legend><B>Personal Details</B></legend>
+    <label for="name"><b>Name:</b></label>
+    <input type="text" id="name" name="name" value="" placeholder="Enter name here"><br><br>
+    <label for="address"><b>Address:</b></label>
+    <input type="text" id="address" name="address" value="" placeholder="Enter address here"><br><br>
+    <label for="email"><b>Email:</b></label>
+    <input type="text" id="email" name="email" value="" placeholder="Enter email here"><br><br>
+    <label for="address"><b>Phone Number:</b></label>
+    <input type="text" id="phone" name="phone" value="" placeholder="Enter 10 digit number"><br><br>
+    <label for="address"><b>IQ:</b></label>
+    <input type="text" id="IQ" name="IQ" value="" placeholder="Enter IQ here"><br><br>
+    <label for="gender"><b>Gender</b></label><br><br>
+    <input type="radio" id="male" name="male" value="Male" checked="checked">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="female" value="female">
+    <label for="female">Female</label><br>
+    <input type="radio" id="other" name="other" value="other">
+    <label for="other">Other</label><br><br>
+    <label for="outing"><b>Date of Proposed Outing:</b></label>
+    <input type="date" id="outing" name="outing">
+  </fieldset><br>
+
+  <fieldset>
+    <label for="check"><b>Check All That Apply</b></label><br><br>
+    <input type="checkbox" id="check1" name="check1" value="Tatoos">
+    <label for="check1"> I have tattoos and/or piercings</label><br>
+    <input type="checkbox" id="check2" name="check2" value="older">
+    <label for="check2"> I am more than 2 years older than my daughter</label><br>
+    <input type="checkbox" id="check3" name="check3" value="panel">
+    <label for="check3"> I own a panel van or V8 ute</label><br> 
+    <input type="checkbox" id="check4" name="check4" value="Full" checked ="checked">
+    <label for="check4"> I work full-time</label><br>
+    <input type="checkbox" id="check5" name="check5" value="rich" checked ="checked">
+    <label for="check5"> My parents are rich</label><br>
+    <input type="checkbox" id="check6" name="check6" value="public" checked ="checked">
+    <label for="check6"> Is the date at a well lit public location</label>
+  </fieldset><br>
+
+  <fieldset>
+    <label for="political">Political Persuasion:</label>
+    <select name="political" id="political">
+      <option value="left">Left Wing</option>
+    </select>
+    <label for="education">Education Level Completed:</label>
+    <select name="education" id="education">
+      <option value="university">University</option>
+    </select> 
+  </fieldset><br>
+
+  <fieldset>
+    <legend><B>Essay Section</B></legend><br>
+    <label for="essay1"><b>In 50 words or more explain why you want to date my daughter</b></label><br><br>
+    <textarea id="essay1" name="essay1" rows="4" cols="50">Enter Text Here</textarea><br><br>
+    <label for="essay2"><b>Please upload contact details for 2 references</b></label><br><br>
+    <textarea id="essay2" name="essay1" rows="4" cols="50">Enter Text Here</textarea><br>
+    <p>Upload Police Clearance Certificate, Bank Statement and Medical Certificates here: <input type="button" style="background-color: red;color: white;" value ="Attach Files"></p>
+  </fieldset><br>
+
+  <div style="text-align: center;"><input style="background-color: red;color:white;" type = "button" value="Send Your Application"></div>
+
+</fieldset>
+</form>
+
+</body>
+</html>
